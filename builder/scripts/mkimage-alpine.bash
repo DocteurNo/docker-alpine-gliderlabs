@@ -6,7 +6,7 @@
 # Luis Lavena (luislavena).
 
 declare REL="${REL:-edge}"
-declare MIRROR="${MIRROR:-http://nl.alpinelinux.org/alpine}"
+declare MIRROR="${MIRROR:-http://dl-cdn.alpinelinux.org}"
 
 set -eo pipefail; [[ "$TRACE" ]] && set -x
 
